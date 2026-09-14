@@ -1,0 +1,15 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime journals and fresh, non-frozen reruns
+*.jsonl
+results/main/audits/reruns/

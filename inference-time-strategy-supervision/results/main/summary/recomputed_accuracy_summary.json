@@ -1,0 +1,157 @@
+{
+  "auditor": "gpt-5.6-luna",
+  "audit_replicate_overall_accuracies": [
+    0.5783068783068783,
+    0.5782275132275132,
+    0.577936507936508
+  ],
+  "overall_mean_accuracy": 0.5781569664902998,
+  "overall_audit_replicate_sample_sd": 0.00019500303692675524,
+  "condition_averages": [
+    {
+      "student": "Llama 3.1 8B Instruct",
+      "condition": "Normal",
+      "audit_replicate_accuracies": [
+        0.42666666666666664,
+        0.4257142857142857,
+        0.42634920634920637
+      ],
+      "mean_accuracy": 0.42624338624338626,
+      "audit_replicate_sample_sd": 0.00048492864496886296,
+      "difference_from_normal_percentage_points": 0.0
+    },
+    {
+      "student": "Llama 3.1 8B Instruct",
+      "condition": "Qwen 2.5 72B Instruct",
+      "audit_replicate_accuracies": [
+        0.526984126984127,
+        0.5234920634920635,
+        0.5196825396825397
+      ],
+      "mean_accuracy": 0.5233862433862434,
+      "audit_replicate_sample_sd": 0.003651943688198366,
+      "difference_from_normal_percentage_points": 9.714285714285714
+    },
+    {
+      "student": "Llama 3.1 8B Instruct",
+      "condition": "DeepSeek V4 Flash 0423",
+      "audit_replicate_accuracies": [
+        0.493015873015873,
+        0.4907936507936508,
+        0.49047619047619045
+      ],
+      "mean_accuracy": 0.49142857142857144,
+      "audit_replicate_sample_sd": 0.0013837774423938762,
+      "difference_from_normal_percentage_points": 6.518518518518518
+    },
+    {
+      "student": "Llama 3.1 8B Instruct",
+      "condition": "Llama 3.3 70B Instruct",
+      "audit_replicate_accuracies": [
+        0.4615873015873016,
+        0.4634920634920635,
+        0.4638095238095238
+      ],
+      "mean_accuracy": 0.46296296296296297,
+      "audit_replicate_sample_sd": 0.0012018853641905206,
+      "difference_from_normal_percentage_points": 3.6719576719576708
+    },
+    {
+      "student": "Llama 3.1 8B Instruct",
+      "condition": "Gemma 3 27B IT",
+      "audit_replicate_accuracies": [
+        0.4111111111111111,
+        0.4149206349206349,
+        0.4149206349206349
+      ],
+      "mean_accuracy": 0.41365079365079366,
+      "audit_replicate_sample_sd": 0.002199429596912865,
+      "difference_from_normal_percentage_points": -1.25925925925926
+    },
+    {
+      "student": "Llama 3.1 8B Instruct",
+      "condition": "Mistral Small 3.2 24B Instruct",
+      "audit_replicate_accuracies": [
+        0.46984126984126984,
+        0.4676190476190476,
+        0.46984126984126984
+      ],
+      "mean_accuracy": 0.4691005291005291,
+      "audit_replicate_sample_sd": 0.0012830005981991767,
+      "difference_from_normal_percentage_points": 4.285714285714281
+    },
+    {
+      "student": "Qwen 2.5 7B Instruct",
+      "condition": "Normal",
+      "audit_replicate_accuracies": [
+        0.6882539682539682,
+        0.6892063492063493,
+        0.693015873015873
+      ],
+      "mean_accuracy": 0.6901587301587302,
+      "audit_replicate_sample_sd": 0.0025197631533948224,
+      "difference_from_normal_percentage_points": 0.0
+    },
+    {
+      "student": "Qwen 2.5 7B Instruct",
+      "condition": "Qwen 2.5 72B Instruct",
+      "audit_replicate_accuracies": [
+        0.7003174603174603,
+        0.7034920634920635,
+        0.7028571428571428
+      ],
+      "mean_accuracy": 0.7022222222222222,
+      "audit_replicate_sample_sd": 0.001679842102263222,
+      "difference_from_normal_percentage_points": 1.2063492063491998
+    },
+    {
+      "student": "Qwen 2.5 7B Instruct",
+      "condition": "DeepSeek V4 Flash 0423",
+      "audit_replicate_accuracies": [
+        0.7158730158730159,
+        0.7155555555555555,
+        0.7177777777777777
+      ],
+      "mean_accuracy": 0.7164021164021164,
+      "audit_replicate_sample_sd": 0.001201885364190528,
+      "difference_from_normal_percentage_points": 2.624338624338618
+    },
+    {
+      "student": "Qwen 2.5 7B Instruct",
+      "condition": "Llama 3.3 70B Instruct",
+      "audit_replicate_accuracies": [
+        0.6987301587301588,
+        0.7022222222222222,
+        0.6952380952380952
+      ],
+      "mean_accuracy": 0.6987301587301588,
+      "audit_replicate_sample_sd": 0.0034920634920634908,
+      "difference_from_normal_percentage_points": 0.8571428571428563
+    },
+    {
+      "student": "Qwen 2.5 7B Instruct",
+      "condition": "Gemma 3 27B IT",
+      "audit_replicate_accuracies": [
+        0.6761904761904762,
+        0.6736507936507936,
+        0.673968253968254
+      ],
+      "mean_accuracy": 0.6746031746031746,
+      "audit_replicate_sample_sd": 0.0013837774423938953,
+      "difference_from_normal_percentage_points": -1.5555555555555545
+    },
+    {
+      "student": "Qwen 2.5 7B Instruct",
+      "condition": "Mistral Small 3.2 24B Instruct",
+      "audit_replicate_accuracies": [
+        0.6711111111111111,
+        0.6685714285714286,
+        0.6673015873015873
+      ],
+      "mean_accuracy": 0.668994708994709,
+      "audit_replicate_sample_sd": 0.0019397145798754883,
+      "difference_from_normal_percentage_points": -2.1164021164021163
+    }
+  ],
+  "metadata_note": "Condition metadata is derived from source filenames, which are canonical for this repository."
+}

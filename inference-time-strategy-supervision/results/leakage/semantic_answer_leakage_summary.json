@@ -1,0 +1,32 @@
+{
+  "DeepSeekV4Flash_teacher_strategies_1050.json": {
+    "audited": 1050,
+    "answer_leakage": 42,
+    "direct": 21,
+    "equivalent": 24
+  },
+  "Llama3.3_70b_teacher_strategies_1050.json": {
+    "audited": 1050,
+    "answer_leakage": 27,
+    "direct": 11,
+    "equivalent": 16
+  },
+  "Qwen72b_teacher_strategies_1050.json": {
+    "audited": 1050,
+    "answer_leakage": 40,
+    "direct": 20,
+    "equivalent": 20
+  },
+  "gemma_27b_teacher_strategies_1050.json": {
+    "audited": 1050,
+    "answer_leakage": 13,
+    "direct": 5,
+    "equivalent": 8
+  },
+  "mistral_3.2_24b_teacher_strategies_1050.json": {
+    "audited": 1050,
+    "answer_leakage": 87,
+    "direct": 53,
+    "equivalent": 34
+  }
+}

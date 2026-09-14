@@ -1,0 +1,27 @@
+{
+  "gemma": {
+    "audited": 78,
+    "correct": 63,
+    "accuracy": 0.8076923076923077
+  },
+  "llama": {
+    "audited": 162,
+    "correct": 123,
+    "accuracy": 0.7592592592592593
+  },
+  "mistral": {
+    "audited": 522,
+    "correct": 382,
+    "accuracy": 0.7318007662835249
+  },
+  "qwen": {
+    "audited": 240,
+    "correct": 178,
+    "accuracy": 0.7416666666666667
+  },
+  "deepseek": {
+    "audited": 252,
+    "correct": 189,
+    "accuracy": 0.75
+  }
+}

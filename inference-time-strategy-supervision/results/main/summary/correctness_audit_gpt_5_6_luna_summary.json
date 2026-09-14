@@ -1,0 +1,1118 @@
+{
+  "model": "gpt-5.6-luna",
+  "recovery_workers": 5,
+  "replicates": [
+    {
+      "replicate": 1,
+      "total": 37800,
+      "correct": 21860,
+      "incorrect": 15751,
+      "uncertain": 189,
+      "accuracy": 0.5783068783068783,
+      "by_condition_file": {
+        "run1_llama_deepseek.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 521,
+          "incorrect": 519,
+          "uncertain": 10,
+          "accuracy": 0.4961904761904762
+        },
+        "run1_llama_gemma.json": {
+          "run": "1",
+          "student": "Llama 3.1 8B Instruct",
+          "condition": "Gemma 3 27B",
+          "total": 1050,
+          "correct": 441,
+          "incorrect": 600,
+          "uncertain": 9,
+          "accuracy": 0.42
+        },
+        "run1_llama_llama.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 514,
+          "incorrect": 532,
+          "uncertain": 4,
+          "accuracy": 0.4895238095238095
+        },
+        "run1_llama_mistral.json": {
+          "run": "1",
+          "student": "Llama 3.1 8B Instruct",
+          "condition": "Mistral Small 3.2 24B",
+          "total": 1050,
+          "correct": 481,
+          "incorrect": 564,
+          "uncertain": 5,
+          "accuracy": 0.4580952380952381
+        },
+        "run1_llama_normal.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 461,
+          "incorrect": 571,
+          "uncertain": 18,
+          "accuracy": 0.439047619047619
+        },
+        "run1_llama_qwen.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 577,
+          "incorrect": 465,
+          "uncertain": 8,
+          "accuracy": 0.5495238095238095
+        },
+        "run1_qwen_deepseek.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 749,
+          "incorrect": 296,
+          "uncertain": 5,
+          "accuracy": 0.7133333333333334
+        },
+        "run1_qwen_gemma.json": {
+          "run": "1",
+          "student": "Qwen 2.5 7B Instruct",
+          "condition": "Gemma 3 27B",
+          "total": 1050,
+          "correct": 701,
+          "incorrect": 349,
+          "uncertain": 0,
+          "accuracy": 0.6676190476190477
+        },
+        "run1_qwen_llama.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 754,
+          "incorrect": 292,
+          "uncertain": 4,
+          "accuracy": 0.7180952380952381
+        },
+        "run1_qwen_mistral.json": {
+          "run": "1",
+          "student": "Qwen 2.5 7B Instruct",
+          "condition": "Mistral Small 3.2 24B",
+          "total": 1050,
+          "correct": 708,
+          "incorrect": 341,
+          "uncertain": 1,
+          "accuracy": 0.6742857142857143
+        },
+        "run1_qwen_normal.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 743,
+          "incorrect": 305,
+          "uncertain": 2,
+          "accuracy": 0.7076190476190476
+        },
+        "run1_qwen_qwen.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 752,
+          "incorrect": 296,
+          "uncertain": 2,
+          "accuracy": 0.7161904761904762
+        },
+        "run2_llama_deepseek.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 526,
+          "incorrect": 519,
+          "uncertain": 5,
+          "accuracy": 0.5009523809523809
+        },
+        "run2_llama_gemma.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 425,
+          "incorrect": 614,
+          "uncertain": 11,
+          "accuracy": 0.40476190476190477
+        },
+        "run2_llama_llama.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 518,
+          "incorrect": 530,
+          "uncertain": 2,
+          "accuracy": 0.49333333333333335
+        },
+        "run2_llama_mistral.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 504,
+          "incorrect": 543,
+          "uncertain": 3,
+          "accuracy": 0.48
+        },
+        "run2_llama_normal.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 472,
+          "incorrect": 575,
+          "uncertain": 3,
+          "accuracy": 0.44952380952380955
+        },
+        "run2_llama_qwen.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 574,
+          "incorrect": 472,
+          "uncertain": 4,
+          "accuracy": 0.5466666666666666
+        },
+        "run2_qwen_deepseek.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 756,
+          "incorrect": 292,
+          "uncertain": 2,
+          "accuracy": 0.72
+        },
+        "run2_qwen_gemma.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 708,
+          "incorrect": 321,
+          "uncertain": 21,
+          "accuracy": 0.6742857142857143
+        },
+        "run2_qwen_llama.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 751,
+          "incorrect": 294,
+          "uncertain": 5,
+          "accuracy": 0.7152380952380952
+        },
+        "run2_qwen_mistral.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 706,
+          "incorrect": 323,
+          "uncertain": 21,
+          "accuracy": 0.6723809523809524
+        },
+        "run2_qwen_normal.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 726,
+          "incorrect": 321,
+          "uncertain": 3,
+          "accuracy": 0.6914285714285714
+        },
+        "run2_qwen_qwen.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 745,
+          "incorrect": 302,
+          "uncertain": 3,
+          "accuracy": 0.7095238095238096
+        },
+        "run3_llama_deepseek.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "deepseek",
+          "total": 1050,
+          "correct": 506,
+          "incorrect": 542,
+          "uncertain": 2,
+          "accuracy": 0.4819047619047619
+        },
+        "run3_llama_gemma.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "gemma",
+          "total": 1050,
+          "correct": 429,
+          "incorrect": 610,
+          "uncertain": 11,
+          "accuracy": 0.4085714285714286
+        },
+        "run3_llama_llama.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "llama33",
+          "total": 1050,
+          "correct": 422,
+          "incorrect": 625,
+          "uncertain": 3,
+          "accuracy": 0.40190476190476193
+        },
+        "run3_llama_mistral.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "mistral",
+          "total": 1050,
+          "correct": 495,
+          "incorrect": 550,
+          "uncertain": 5,
+          "accuracy": 0.4714285714285714
+        },
+        "run3_llama_normal.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "normal",
+          "total": 1050,
+          "correct": 411,
+          "incorrect": 632,
+          "uncertain": 7,
+          "accuracy": 0.3914285714285714
+        },
+        "run3_llama_qwen.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "qwen72",
+          "total": 1050,
+          "correct": 509,
+          "incorrect": 537,
+          "uncertain": 4,
+          "accuracy": 0.4847619047619048
+        },
+        "run3_qwen_deepseek.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "deepseek",
+          "total": 1050,
+          "correct": 750,
+          "incorrect": 298,
+          "uncertain": 2,
+          "accuracy": 0.7142857142857143
+        },
+        "run3_qwen_gemma.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "gemma",
+          "total": 1050,
+          "correct": 721,
+          "incorrect": 327,
+          "uncertain": 2,
+          "accuracy": 0.6866666666666666
+        },
+        "run3_qwen_llama.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "llama33",
+          "total": 1050,
+          "correct": 696,
+          "incorrect": 354,
+          "uncertain": 0,
+          "accuracy": 0.6628571428571428
+        },
+        "run3_qwen_mistral.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "mistral",
+          "total": 1050,
+          "correct": 700,
+          "incorrect": 350,
+          "uncertain": 0,
+          "accuracy": 0.6666666666666666
+        },
+        "run3_qwen_normal.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "normal",
+          "total": 1050,
+          "correct": 699,
+          "incorrect": 350,
+          "uncertain": 1,
+          "accuracy": 0.6657142857142857
+        },
+        "run3_qwen_qwen.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "qwen72",
+          "total": 1050,
+          "correct": 709,
+          "incorrect": 340,
+          "uncertain": 1,
+          "accuracy": 0.6752380952380952
+        }
+      }
+    },
+    {
+      "replicate": 2,
+      "total": 37800,
+      "correct": 21857,
+      "incorrect": 15761,
+      "uncertain": 182,
+      "accuracy": 0.5782275132275132,
+      "by_condition_file": {
+        "run1_llama_deepseek.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 514,
+          "incorrect": 528,
+          "uncertain": 8,
+          "accuracy": 0.4895238095238095
+        },
+        "run1_llama_gemma.json": {
+          "run": "1",
+          "student": "Llama 3.1 8B Instruct",
+          "condition": "Gemma 3 27B",
+          "total": 1050,
+          "correct": 439,
+          "incorrect": 604,
+          "uncertain": 7,
+          "accuracy": 0.4180952380952381
+        },
+        "run1_llama_llama.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 520,
+          "incorrect": 528,
+          "uncertain": 2,
+          "accuracy": 0.49523809523809526
+        },
+        "run1_llama_mistral.json": {
+          "run": "1",
+          "student": "Llama 3.1 8B Instruct",
+          "condition": "Mistral Small 3.2 24B",
+          "total": 1050,
+          "correct": 476,
+          "incorrect": 572,
+          "uncertain": 2,
+          "accuracy": 0.4533333333333333
+        },
+        "run1_llama_normal.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 466,
+          "incorrect": 577,
+          "uncertain": 7,
+          "accuracy": 0.4438095238095238
+        },
+        "run1_llama_qwen.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 579,
+          "incorrect": 469,
+          "uncertain": 2,
+          "accuracy": 0.5514285714285714
+        },
+        "run1_qwen_deepseek.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 748,
+          "incorrect": 299,
+          "uncertain": 3,
+          "accuracy": 0.7123809523809523
+        },
+        "run1_qwen_gemma.json": {
+          "run": "1",
+          "student": "Qwen 2.5 7B Instruct",
+          "condition": "Gemma 3 27B",
+          "total": 1050,
+          "correct": 702,
+          "incorrect": 347,
+          "uncertain": 1,
+          "accuracy": 0.6685714285714286
+        },
+        "run1_qwen_llama.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 767,
+          "incorrect": 281,
+          "uncertain": 2,
+          "accuracy": 0.7304761904761905
+        },
+        "run1_qwen_mistral.json": {
+          "run": "1",
+          "student": "Qwen 2.5 7B Instruct",
+          "condition": "Mistral Small 3.2 24B",
+          "total": 1050,
+          "correct": 709,
+          "incorrect": 338,
+          "uncertain": 3,
+          "accuracy": 0.6752380952380952
+        },
+        "run1_qwen_normal.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 738,
+          "incorrect": 309,
+          "uncertain": 3,
+          "accuracy": 0.7028571428571428
+        },
+        "run1_qwen_qwen.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 749,
+          "incorrect": 300,
+          "uncertain": 1,
+          "accuracy": 0.7133333333333334
+        },
+        "run2_llama_deepseek.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 527,
+          "incorrect": 511,
+          "uncertain": 12,
+          "accuracy": 0.5019047619047619
+        },
+        "run2_llama_gemma.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 433,
+          "incorrect": 600,
+          "uncertain": 17,
+          "accuracy": 0.4123809523809524
+        },
+        "run2_llama_llama.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 517,
+          "incorrect": 526,
+          "uncertain": 7,
+          "accuracy": 0.49238095238095236
+        },
+        "run2_llama_mistral.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 496,
+          "incorrect": 551,
+          "uncertain": 3,
+          "accuracy": 0.4723809523809524
+        },
+        "run2_llama_normal.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 473,
+          "incorrect": 575,
+          "uncertain": 2,
+          "accuracy": 0.4504761904761905
+        },
+        "run2_llama_qwen.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 565,
+          "incorrect": 481,
+          "uncertain": 4,
+          "accuracy": 0.5380952380952381
+        },
+        "run2_qwen_deepseek.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 755,
+          "incorrect": 293,
+          "uncertain": 2,
+          "accuracy": 0.719047619047619
+        },
+        "run2_qwen_gemma.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 702,
+          "incorrect": 325,
+          "uncertain": 23,
+          "accuracy": 0.6685714285714286
+        },
+        "run2_qwen_llama.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 755,
+          "incorrect": 295,
+          "uncertain": 0,
+          "accuracy": 0.719047619047619
+        },
+        "run2_qwen_mistral.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 702,
+          "incorrect": 332,
+          "uncertain": 16,
+          "accuracy": 0.6685714285714286
+        },
+        "run2_qwen_normal.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 732,
+          "incorrect": 317,
+          "uncertain": 1,
+          "accuracy": 0.6971428571428572
+        },
+        "run2_qwen_qwen.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 762,
+          "incorrect": 287,
+          "uncertain": 1,
+          "accuracy": 0.7257142857142858
+        },
+        "run3_llama_deepseek.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "deepseek",
+          "total": 1050,
+          "correct": 505,
+          "incorrect": 541,
+          "uncertain": 4,
+          "accuracy": 0.48095238095238096
+        },
+        "run3_llama_gemma.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "gemma",
+          "total": 1050,
+          "correct": 435,
+          "incorrect": 605,
+          "uncertain": 10,
+          "accuracy": 0.4142857142857143
+        },
+        "run3_llama_llama.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "llama33",
+          "total": 1050,
+          "correct": 423,
+          "incorrect": 623,
+          "uncertain": 4,
+          "accuracy": 0.40285714285714286
+        },
+        "run3_llama_mistral.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "mistral",
+          "total": 1050,
+          "correct": 501,
+          "incorrect": 548,
+          "uncertain": 1,
+          "accuracy": 0.47714285714285715
+        },
+        "run3_llama_normal.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "normal",
+          "total": 1050,
+          "correct": 402,
+          "incorrect": 635,
+          "uncertain": 13,
+          "accuracy": 0.38285714285714284
+        },
+        "run3_llama_qwen.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "qwen72",
+          "total": 1050,
+          "correct": 505,
+          "incorrect": 534,
+          "uncertain": 11,
+          "accuracy": 0.48095238095238096
+        },
+        "run3_qwen_deepseek.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "deepseek",
+          "total": 1050,
+          "correct": 751,
+          "incorrect": 295,
+          "uncertain": 4,
+          "accuracy": 0.7152380952380952
+        },
+        "run3_qwen_gemma.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "gemma",
+          "total": 1050,
+          "correct": 718,
+          "incorrect": 330,
+          "uncertain": 2,
+          "accuracy": 0.6838095238095238
+        },
+        "run3_qwen_llama.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "llama33",
+          "total": 1050,
+          "correct": 690,
+          "incorrect": 359,
+          "uncertain": 1,
+          "accuracy": 0.6571428571428571
+        },
+        "run3_qwen_mistral.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "mistral",
+          "total": 1050,
+          "correct": 695,
+          "incorrect": 355,
+          "uncertain": 0,
+          "accuracy": 0.6619047619047619
+        },
+        "run3_qwen_normal.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "normal",
+          "total": 1050,
+          "correct": 701,
+          "incorrect": 348,
+          "uncertain": 1,
+          "accuracy": 0.6676190476190477
+        },
+        "run3_qwen_qwen.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "qwen72",
+          "total": 1050,
+          "correct": 705,
+          "incorrect": 343,
+          "uncertain": 2,
+          "accuracy": 0.6714285714285714
+        }
+      }
+    },
+    {
+      "replicate": 3,
+      "total": 37800,
+      "correct": 21846,
+      "incorrect": 15792,
+      "uncertain": 162,
+      "accuracy": 0.577936507936508,
+      "by_condition_file": {
+        "run1_llama_deepseek.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 517,
+          "incorrect": 520,
+          "uncertain": 13,
+          "accuracy": 0.49238095238095236
+        },
+        "run1_llama_gemma.json": {
+          "run": "1",
+          "student": "Llama 3.1 8B Instruct",
+          "condition": "Gemma 3 27B",
+          "total": 1050,
+          "correct": 441,
+          "incorrect": 601,
+          "uncertain": 8,
+          "accuracy": 0.42
+        },
+        "run1_llama_llama.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 513,
+          "incorrect": 533,
+          "uncertain": 4,
+          "accuracy": 0.48857142857142855
+        },
+        "run1_llama_mistral.json": {
+          "run": "1",
+          "student": "Llama 3.1 8B Instruct",
+          "condition": "Mistral Small 3.2 24B",
+          "total": 1050,
+          "correct": 473,
+          "incorrect": 574,
+          "uncertain": 3,
+          "accuracy": 0.4504761904761905
+        },
+        "run1_llama_normal.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 473,
+          "incorrect": 567,
+          "uncertain": 10,
+          "accuracy": 0.4504761904761905
+        },
+        "run1_llama_qwen.json": {
+          "run": "1",
+          "student": "Llama8B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 580,
+          "incorrect": 468,
+          "uncertain": 2,
+          "accuracy": 0.5523809523809524
+        },
+        "run1_qwen_deepseek.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 750,
+          "incorrect": 298,
+          "uncertain": 2,
+          "accuracy": 0.7142857142857143
+        },
+        "run1_qwen_gemma.json": {
+          "run": "1",
+          "student": "Qwen 2.5 7B Instruct",
+          "condition": "Gemma 3 27B",
+          "total": 1050,
+          "correct": 704,
+          "incorrect": 344,
+          "uncertain": 2,
+          "accuracy": 0.6704761904761904
+        },
+        "run1_qwen_llama.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 751,
+          "incorrect": 298,
+          "uncertain": 1,
+          "accuracy": 0.7152380952380952
+        },
+        "run1_qwen_mistral.json": {
+          "run": "1",
+          "student": "Qwen 2.5 7B Instruct",
+          "condition": "Mistral Small 3.2 24B",
+          "total": 1050,
+          "correct": 704,
+          "incorrect": 345,
+          "uncertain": 1,
+          "accuracy": 0.6704761904761904
+        },
+        "run1_qwen_normal.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 743,
+          "incorrect": 303,
+          "uncertain": 4,
+          "accuracy": 0.7076190476190476
+        },
+        "run1_qwen_qwen.json": {
+          "run": "1",
+          "student": "Qwen2.5_7B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 757,
+          "incorrect": 292,
+          "uncertain": 1,
+          "accuracy": 0.7209523809523809
+        },
+        "run2_llama_deepseek.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 524,
+          "incorrect": 513,
+          "uncertain": 13,
+          "accuracy": 0.4990476190476191
+        },
+        "run2_llama_gemma.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 430,
+          "incorrect": 608,
+          "uncertain": 12,
+          "accuracy": 0.4095238095238095
+        },
+        "run2_llama_llama.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 523,
+          "incorrect": 526,
+          "uncertain": 1,
+          "accuracy": 0.4980952380952381
+        },
+        "run2_llama_mistral.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 506,
+          "incorrect": 540,
+          "uncertain": 4,
+          "accuracy": 0.4819047619047619
+        },
+        "run2_llama_normal.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 462,
+          "incorrect": 588,
+          "uncertain": 0,
+          "accuracy": 0.44
+        },
+        "run2_llama_qwen.json": {
+          "run": "2",
+          "student": "Llama8B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 558,
+          "incorrect": 491,
+          "uncertain": 1,
+          "accuracy": 0.5314285714285715
+        },
+        "run2_qwen_deepseek.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "DeepSeekV4Flash0423",
+          "total": 1050,
+          "correct": 757,
+          "incorrect": 289,
+          "uncertain": 4,
+          "accuracy": 0.7209523809523809
+        },
+        "run2_qwen_gemma.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 703,
+          "incorrect": 326,
+          "uncertain": 21,
+          "accuracy": 0.6695238095238095
+        },
+        "run2_qwen_llama.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Llama3.3_70B",
+          "total": 1050,
+          "correct": 750,
+          "incorrect": 298,
+          "uncertain": 2,
+          "accuracy": 0.7142857142857143
+        },
+        "run2_qwen_mistral.json": {
+          "run": "2",
+          "student": "",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 704,
+          "incorrect": 331,
+          "uncertain": 15,
+          "accuracy": 0.6704761904761904
+        },
+        "run2_qwen_normal.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Normal",
+          "total": 1050,
+          "correct": 734,
+          "incorrect": 316,
+          "uncertain": 0,
+          "accuracy": 0.699047619047619
+        },
+        "run2_qwen_qwen.json": {
+          "run": "2",
+          "student": "Qwen2.5_7B",
+          "condition": "Qwen72B",
+          "total": 1050,
+          "correct": 754,
+          "incorrect": 294,
+          "uncertain": 2,
+          "accuracy": 0.7180952380952381
+        },
+        "run3_llama_deepseek.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "deepseek",
+          "total": 1050,
+          "correct": 504,
+          "incorrect": 542,
+          "uncertain": 4,
+          "accuracy": 0.48
+        },
+        "run3_llama_gemma.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "gemma",
+          "total": 1050,
+          "correct": 436,
+          "incorrect": 610,
+          "uncertain": 4,
+          "accuracy": 0.41523809523809524
+        },
+        "run3_llama_llama.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "llama33",
+          "total": 1050,
+          "correct": 425,
+          "incorrect": 618,
+          "uncertain": 7,
+          "accuracy": 0.40476190476190477
+        },
+        "run3_llama_mistral.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "mistral",
+          "total": 1050,
+          "correct": 501,
+          "incorrect": 548,
+          "uncertain": 1,
+          "accuracy": 0.47714285714285715
+        },
+        "run3_llama_normal.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "normal",
+          "total": 1050,
+          "correct": 408,
+          "incorrect": 635,
+          "uncertain": 7,
+          "accuracy": 0.38857142857142857
+        },
+        "run3_llama_qwen.json": {
+          "run": "3",
+          "student": "llama",
+          "condition": "qwen72",
+          "total": 1050,
+          "correct": 499,
+          "incorrect": 546,
+          "uncertain": 5,
+          "accuracy": 0.47523809523809524
+        },
+        "run3_qwen_deepseek.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "deepseek",
+          "total": 1050,
+          "correct": 754,
+          "incorrect": 294,
+          "uncertain": 2,
+          "accuracy": 0.7180952380952381
+        },
+        "run3_qwen_gemma.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "gemma",
+          "total": 1050,
+          "correct": 716,
+          "incorrect": 332,
+          "uncertain": 2,
+          "accuracy": 0.6819047619047619
+        },
+        "run3_qwen_llama.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "llama33",
+          "total": 1050,
+          "correct": 689,
+          "incorrect": 359,
+          "uncertain": 2,
+          "accuracy": 0.6561904761904762
+        },
+        "run3_qwen_mistral.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "mistral",
+          "total": 1050,
+          "correct": 694,
+          "incorrect": 356,
+          "uncertain": 0,
+          "accuracy": 0.660952380952381
+        },
+        "run3_qwen_normal.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "normal",
+          "total": 1050,
+          "correct": 706,
+          "incorrect": 342,
+          "uncertain": 2,
+          "accuracy": 0.6723809523809524
+        },
+        "run3_qwen_qwen.json": {
+          "run": "3",
+          "student": "qwen",
+          "condition": "qwen72",
+          "total": 1050,
+          "correct": 703,
+          "incorrect": 347,
+          "uncertain": 0,
+          "accuracy": 0.6695238095238095
+        }
+      }
+    }
+  ],
+  "accuracy_mean": 0.5781569664902998,
+  "accuracy_sample_sd": 0.00019500303692675524
+}
